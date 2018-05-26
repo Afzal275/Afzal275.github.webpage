@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-decoration: none;
+}
+body {
+    background-image: url("abc.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 1600px 1150px;
+ }
+ section{
+     font-family: arial;
+     font-size: 22;
+     text-decoration-color: white;
+ }
+ p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+footer{
+    text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        
+        color: white;
+        
+     
+}
